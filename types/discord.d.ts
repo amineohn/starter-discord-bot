@@ -1,4 +1,4 @@
-type Interaction = {
+export type Interaction = {
     type: InteractionType;
     data: {
         name: string;

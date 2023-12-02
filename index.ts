@@ -2,6 +2,7 @@ import {config} from "dotenv";
 import express from 'express';
 import {InteractionType, InteractionResponseType, verifyKeyMiddleware} from 'discord-interactions';
 import axios from "axios";
+import {Interaction} from "discord";
 
 config()
 
